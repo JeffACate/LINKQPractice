@@ -10,6 +10,7 @@ namespace LINQ_PracticeProblemsApp
     {
         static void Main(string[] args)
         {
+            LINQ_PracticeProblems.Exe();
         }
     }
 }
