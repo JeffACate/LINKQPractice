@@ -17,9 +17,9 @@ namespace LINQ_PracticeProblemsApp
             var wordsWithTH = words.Where(words => words.Contains("th")); 
             foreach (var word  in wordsWithTH){ Console.WriteLine(word); }
 
-            words = new List<string>() { "Mike", "Brad", "Nevin", "Ian", "Mike" };
+            words = new List<string>() { "Mike", "Brad", "Nevin", "Ian", "Mike", "Duplicate", "Duplicate" };
             var wordsWithoutDuplicates = words.Distinct();
-            foreach (var word in wordsWithTH) { Console.WriteLine(word); }
+            foreach (var word in wordsWithoutDuplicates) { Console.WriteLine(word); }
 
             Console.WriteLine();
             Console.ReadKey();
